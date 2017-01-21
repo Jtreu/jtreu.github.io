@@ -1,0 +1,111 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<title>My Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img class="title-logo" src="assets/me.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="title-super text-thin">Jameson Treu</h1>
+				<h4>Front-End Genji</h4>
+			</div>
+		</div>
+		<div class="row">
+			<hr>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div>
+					<img src="assets/frontend.jpg" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		<div>
+			<h2 class="text-muted">Featured Work</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-4 text-center text-uppercase">
+				<img src="assets/pizza.jpg" class="img-responsive project-imgs" data-toggle="modal" data-target="#pizza">
+				<h3>Mock Pizza</h3>
+				<p><a href="https://github.com/Jtreu/Pizza-Website">https://github.com/Jtreu/Pizza-Website</a></p>
+			</div>
+			<div class="col-md-4 text-center text-uppercase">
+				<img src="assets/spaceInvaders.jpg" class="img-responsive project-imgs" data-toggle="modal" data-target="#javafx">
+				<h3>JavaFX</h3>
+				<p><a href="https://github.com/Jtreu/JavaFX_Examples">https://github.com/Jtreu/JavaFX_Examples</a></p>
+			</div>
+			<div class="col-md-4 text-center text-uppercase">
+				<img src="assets/website.jpg"class="img-responsive project-imgs" data-toggle="modal" data-target="#website">
+				<h3>Personal Site</h3>
+				<p><a href="https://github.com/Jtreu/MyFirstWebsite">https://github.com/Jtreu/MyFirstWebsite</a></p>
+			</div>
+		</div>
+	</div>
+<!-- Modal 1-->
+    <div class="modal fade" id="pizza" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Cheesy</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="assets/pizza.jpg">
+                    This was my first full stack web project. It's a pizza order website with a fluffy front end and a backend made with php.
+                    I wasn't setting out to make the next pizza hut website, but the way the whole thing came together was nice!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 2-->
+    <div class="modal fade" id="javafx" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">The Java Jive</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="assets/spaceInvaders.jpg">
+                    This was about 1/2 about my advanced java class. I'm not sure if this'll ever come in handy, but hey it sure was fun! Oh and by the way, building
+                    that space invaders game with the vanilla library was like trying to make a mansion out of toothpicks!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal 3-->
+    <div class="modal fade" id="website" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Personal Website</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="assets/website.jpg">
+                    This was the first website I created with html and css, with help of course. I have not yet finished it because I want to restart with a framework instead
+                    of just doing it with css/html/javascript only, but I still like the way it looks.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
